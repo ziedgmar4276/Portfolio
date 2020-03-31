@@ -11,7 +11,7 @@ function App() {
                 <a href="/">Link</a>
                 <a href="/">Link</a>
                 <a href="/">Link</a>
-                <a href="/">Link</a>
+                
             </Navigation>
         </Header>
         <Drawer title="Title">
