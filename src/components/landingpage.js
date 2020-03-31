@@ -14,11 +14,35 @@ class Landing extends Component{
          alt="zied gmar" className="avatar-img"/>
          <div className="banner-text" >
            <h1> Full Stack Web Developer</h1>
-<hr/>
+           <hr/>
+           <p>HTML /CSS |Bootstrap | Javascript |react | NodeJS | Express | Mongo DB </p>
 
+           <div className="social-links">
+              {/*linkedin */}
+              <a href="https://www.linkedin.com/in/zied-gmar-421325184/" rel="noopener noreferrer" target="_blank">
+                <i className ="fa fa-linkedin-square" aria-hidden ="true"/>
+               </a>
+             {/*Github */}
+             <a href="https://github.com/ziedgmar4276" rel="noopener noreferrer" target="_blank">
+               <i className ="fa fa-github-square" aria-hidden ="true"/>
+             </a>
+              {/*Google*/}
+              <a href="https://www.google.com" rel="noopener noreferrer" target="_blank">
+               <i className ="fa fa-google" aria-hidden ="true"/>
+             </a>
+          
+             {/*facebook*/}
+             <a href="https://www.facebook.com/zied.gmar.37" rel="noopener noreferrer" target="_blank">
+               <i className ="fa fa-facebook-square" aria-hidden ="true"/>
+             </a>
+          
+          
+
+
+            </div>
          </div>
 
-       </Cell>
+        </Cell>
      </Grid>  
      </div>
         );
