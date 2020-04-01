@@ -9,14 +9,16 @@ background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, F
   background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
-  top :0;
+  top :20;
   left:0;
   width: 100%;
   height: 100%;
+
+
 }
 .avatar-img {
-height: 250n px;
-padding-top: 5em;
+  border-radius: 50%;
+  height: 200px;  
 }
 
 .banner-text{
@@ -53,4 +55,8 @@ margin :auto;
   color :white;
   font-size:5em;
  padding: 8px;
+}
+.project-grid{
+  display: flex;
+
 }
