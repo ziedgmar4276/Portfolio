@@ -11,14 +11,14 @@ class Project extends Component{
     if(this.state.activeTab === 0){
       return (
         <div className="project-grid">
-        {/*project 1*/}
+        {/* react project 1*/}
         <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
           <CardTitle style={{color:'#fff',height :'176px',background:'url(https://reactjs.org/logo-og.png) center /cover'}}>REACT PROJECT #1</CardTitle>
           <CardText>
             is  simply  summy  text  of javascript your friend zied
           </CardText>
           <CardActions border>
-            <Button colored >GiTHUB</Button>
+            <Button  href=""colored >GiTHUB</Button>
             <Button colored >codepen</Button>
             <Button colored >live DEMO</Button>
           </CardActions>
@@ -26,7 +26,7 @@ class Project extends Component{
             <IconButton name="share"/>
           </CardMenu>
         </Card> 
-        {/*project 2*/}
+        {/*react project 2*/}
         <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
           <CardTitle style={{color:'#fff',height :'176px',background:'url(https://reactjs.org/logo-og.png) center /cover'}}>REACT PROJECT #2</CardTitle>
           <CardText>
@@ -41,7 +41,7 @@ class Project extends Component{
             <IconButton name="share"/>
           </CardMenu>
         </Card>
-         {/*project 3*/}
+         {/* react project 3*/}
          <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
          <CardTitle style={{color:'#fff',height :'176px',background:'url(https://reactjs.org/logo-og.png) center /cover'}}>REACT PROJECT #3</CardTitle>
          <CardText>
@@ -60,15 +60,153 @@ class Project extends Component{
       )
     } else if(this.state.activeTab ===1){
       return (
-        <div><h1>this is Angular  </h1></div>
+        <div className="project-grid">
+        {/* angular project 1*/}
+        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+          <CardTitle style={{color:'#fff',height :'176px',background:'url(https://danielpdev.io/static/6ab252086c1cfdea4bb9db06c5fa3305/66c07/preview.png) center /cover'}}>REACT PROJECT #1</CardTitle>
+          <CardText>
+            is  simply  summy  text  of javascript your friend zied
+          </CardText>
+          <CardActions border>
+            <Button  href=""colored >GiTHUB</Button>
+            <Button colored >codepen</Button>
+            <Button colored >live DEMO</Button>
+          </CardActions>
+          <CardMenu style ={{color :'#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card> 
+        {/*angular project 2*/}
+        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+          <CardTitle style={{color:'#fff',height :'176px',background:'url(https://danielpdev.io/static/6ab252086c1cfdea4bb9db06c5fa3305/66c07/preview.png) center /cover'}}>REACT PROJECT #2</CardTitle>
+          <CardText>
+            is  simply  summy  text  of javascript your friend zied
+          </CardText>
+          <CardActions border>
+            <Button colored >GiTHUB</Button>
+            <Button colored >codepen</Button>
+            <Button colored >live DEMO</Button>
+          </CardActions>
+          <CardMenu style ={{color :'#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card>
+         {/* angular project 3*/}
+         <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+         <CardTitle style={{color:'#fff',height :'176px',background:'url(https://danielpdev.io/static/6ab252086c1cfdea4bb9db06c5fa3305/66c07/preview.png) center /cover'}}>REACT PROJECT #3</CardTitle>
+         <CardText>
+           is  simply  summy  text  of javascript your friend zied
+         </CardText>
+         <CardActions border>
+           <Button colored >GiTHUB</Button>
+           <Button colored >codepen</Button>
+           <Button colored >live DEMO</Button>
+         </CardActions>
+         <CardMenu style ={{color :'#fff'}}>
+           <IconButton name="share"/>
+         </CardMenu>
+       </Card>
+       </div>
       )
     }else if(this.state.activeTab ===2){
       return (
-        <div><h1>this is Node JS </h1></div>
+        <div className="project-grid">
+        {/* node js project 1*/}
+        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+          <CardTitle style={{color:'#fff',height :'176px',background:'url(https://pngimage.net/wp-content/uploads/2018/06/node-js-logo-png-5.png) center /cover'}}>REACT PROJECT #1</CardTitle>
+          <CardText>
+            is  simply  summy  text  of javascript your friend zied
+          </CardText>
+          <CardActions border>
+            <Button  href=""colored >GiTHUB</Button>
+            <Button colored >codepen</Button>
+            <Button colored >live DEMO</Button>
+          </CardActions>
+          <CardMenu style ={{color :'#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card> 
+        {/*node js project 2*/}
+        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+          <CardTitle style={{color:'#fff',height :'176px',background:'url(https://pngimage.net/wp-content/uploads/2018/06/node-js-logo-png-5.png) center /cover'}}>REACT PROJECT #2</CardTitle>
+          <CardText>
+            is  simply  summy  text  of javascript your friend zied
+          </CardText>
+          <CardActions border>
+            <Button colored >GiTHUB</Button>
+            <Button colored >codepen</Button>
+            <Button colored >live DEMO</Button>
+          </CardActions>
+          <CardMenu style ={{color :'#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card>
+         {/* node js project 3*/}
+         <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+         <CardTitle style={{color:'#fff',height :'176px',background:'url(https://pngimage.net/wp-content/uploads/2018/06/node-js-logo-png-5.png) center /cover'}}>REACT PROJECT #3</CardTitle>
+         <CardText>
+           is  simply  summy  text  of javascript your friend zied
+         </CardText>
+         <CardActions border>
+           <Button colored >GiTHUB</Button>
+           <Button colored >codepen</Button>
+           <Button colored >live DEMO</Button>
+         </CardActions>
+         <CardMenu style ={{color :'#fff'}}>
+           <IconButton name="share"/>
+         </CardMenu>
+       </Card>
+       </div>
       )
     }else if(this.state.activeTab ===3){
       return (
-        <div><h1>this is MongoDB </h1></div>
+        <div className="project-grid">
+        {/* mongo project 1*/}
+        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+          <CardTitle style={{color:'#fff',height :'176px',background:'url(https://www.codeplusinfo.com/wp-content/uploads/2020/02/MongoDB-logo.png) center /cover'}}>REACT PROJECT #1</CardTitle>
+          <CardText>
+            is  simply  summy  text  of javascript your friend zied
+          </CardText>
+          <CardActions border>
+            <Button  href=""colored >GiTHUB</Button>
+            <Button colored >codepen</Button>
+            <Button colored >live DEMO</Button>
+          </CardActions>
+          <CardMenu style ={{color :'#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card> 
+        {/* mongo db project 2*/}
+        <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+          <CardTitle style={{color:'#fff',height :'176px',background:'url(https://www.codeplusinfo.com/wp-content/uploads/2020/02/MongoDB-logo.png) center /cover'}}>REACT PROJECT #2</CardTitle>
+          <CardText>
+            is  simply  summy  text  of javascript your friend zied
+          </CardText>
+          <CardActions border>
+            <Button colored >GiTHUB</Button>
+            <Button colored >codepen</Button>
+            <Button colored >live DEMO</Button>
+          </CardActions>
+          <CardMenu style ={{color :'#fff'}}>
+            <IconButton name="share"/>
+          </CardMenu>
+        </Card>
+         {/* monog  db project 3*/}
+         <Card shadow={5} style={{minWidth:'450',margin:'auto'}}>
+         <CardTitle style={{color:'#fff',height :'176px',background:'url(https://www.codeplusinfo.com/wp-content/uploads/2020/02/MongoDB-logo.png) center /cover'}}>REACT PROJECT #3</CardTitle>
+         <CardText>
+           is  simply  summy  text  of javascript your friend zied
+         </CardText>
+         <CardActions border>
+           <Button colored >GiTHUB</Button>
+           <Button colored >codepen</Button>
+           <Button colored >live DEMO</Button>
+         </CardActions>
+         <CardMenu style ={{color :'#fff'}}>
+           <IconButton name="share"/>
+         </CardMenu>
+       </Card>
+       </div>
       )
     }
   }
